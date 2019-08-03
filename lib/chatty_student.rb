@@ -7,6 +7,6 @@ attr_accessor :phrase
 
   def raise_hand
     super
-    @phrase = puts "Pick me!".10.times
+    @phrase = puts "Pick me!"10.times
   end
 end
