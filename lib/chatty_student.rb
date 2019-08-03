@@ -5,6 +5,7 @@ class ChattyStudent
   end
 
   def raise_hand
-
+    super
+    @phrase = "Pick me!".times 10
   end
 end
