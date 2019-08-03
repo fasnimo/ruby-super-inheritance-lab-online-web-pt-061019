@@ -6,6 +6,6 @@ class ChattyStudent
 
   def raise_hand
     super
-    @phrase = "Pick me!".times 10
+    @phrase = 10.times {puts"Pick me!"}
   end
 end
